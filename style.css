@@ -1,0 +1,16 @@
+body {
+  font-family: 'Courier New', monospace; /* Changed to monospaced font */
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: green;
+  cursor: url('☠️'), auto; /* Custom cursor */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent; /* Change to transparent to show black */
+  color: green;
+  border: 2px solid green; /* Green border */
+  cursor: url('☠️'), auto; /* Custom cursor */
+}
