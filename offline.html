@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00FF00">
+    <title>Offline - Malverse Mobile Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .offline-icon {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+        
+        .retry-button {
+            margin-top: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-icon">📡</div>
+    <h1>You're Offline</h1>
+    <p>Unable to connect to Malverse Mobile Tracker</p>
+    <button class="retry-button" onclick="window.location.reload()">
+        Try Again
+    </button>
+</body>
+</html>
