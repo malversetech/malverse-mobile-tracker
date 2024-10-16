@@ -1,5 +1,6 @@
 /malverse-mobile-tracker
     ├── index.html
+    ├── offline.html
     ├── manifest.json
     ├── styles.css
     ├── app.js
