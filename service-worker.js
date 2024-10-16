@@ -2,6 +2,7 @@ const CACHE_NAME = 'malverse-mobile-tracker-v1';
 const ASSETS = [
     '/',
     '/index.html',
+    '/offline.html', 
     '/styles.css',
     '/app.js',
     '/manifest.json',
